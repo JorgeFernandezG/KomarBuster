@@ -1,5 +1,8 @@
 {
     "liveshare.languages.allowGuestCommandControl": true,
     "emmet.triggerExpansionOnTab": true,
-"files.associations": {"*html":"html"},
+"files.associations": {
+    "*html": "html"
+},
+"liveServer.settings.host": "localhost",
 }
