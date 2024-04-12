@@ -1,0 +1,459 @@
+*{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+  }
+  
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+h1{
+    font-size: 60px;
+    color: blueviolet;
+}
+
+.header-content{
+    text-align: center;
+    line-height: 60px;
+}
+
+.header-content p{
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.header{
+
+    background-image: linear-gradient(
+        180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 51%, rgba(0,0,0,1) 100%
+    ),
+        url(img/fondoheadercat.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.headersurvival{
+
+    background-image: linear-gradient(
+        180deg, rgba(68, 1, 94, 0.76) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,1) 100%
+    ),
+        url(img/fondosurvival.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.headershooter{
+
+    background-image: linear-gradient(
+        180deg, rgba(68, 1, 94, 0.76) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,1) 100%
+    ),
+        url(img/fondoshooter.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.headershooterjuego{
+    background-color: black;
+
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.headerterror{
+
+    background-image: linear-gradient(
+        180deg, rgba(68, 1, 94, 0.76) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,1) 100%
+    ),
+        url(img/fondoterror.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.headerrace{
+
+    background-image: linear-gradient(
+        180deg, rgba(68, 1, 94, 0.76) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,1) 100%
+    ),
+        url(img/fondorace.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.headerestrategia{
+
+    background-image: linear-gradient(
+        180deg, rgba(68, 1, 94, 0.76) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,1) 100%
+    ),
+        url(img/fondoestrategia.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+  
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.barracategorias ul{
+    list-style-type: none;
+    display:inline-block;
+  
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+
+    text-align: center;
+
+    
+}
+
+
+
+.barracategorias ul li {
+    position: relative;
+    float: left;
+    padding: 15px;
+
+
+
+
+
+
+}
+
+.barracategorias ul li a{
+    background-color: blueviolet;
+    border-radius: 15px;
+    
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+
+    font-weight: 600;
+}
+
+.barracategorias ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+.logo{
+    color: white    ;
+    font-size: 25px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: blueviolet;
+
+}
+
+.btn-1{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    
+}
+
+.btn-flechadown{
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+
+    border-radius: 20px;
+}
+
+/* pagina de todas las categorias existentes */
+
+.categoriasbox{
+ 
+    padding: 100px 0;
+    text-align: center ;
+    background-color: black;
+}
+
+.categorias{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+
+    
+
+}
+
+.categoria{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.categoria img{
+    width: 350px;
+    opacity: 80%;
+
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: solid;
+
+
+}
+
+.categoria h2{
+    font-size: 25px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.categoria h2 a{
+    color: white;
+}
+
+/* fin pagina de todas las categorias existentes */
+
+/* pagina de cada categoria existente */
+
+.juegosbox{
+
+ 
+    padding: 20px 0;
+    text-align: center ;
+    background-color: black;
+}
+
+.juegos{
+    display:block;
+    flex-wrap:wrap;
+    justify-content: left;
+
+    
+
+    
+
+}
+
+.juego{
+    background-color: rgba(128, 128, 128, 0.329);
+    
+
+    display:flex;
+    text-align: left;
+    
+    padding: 15px;
+
+
+}
+
+.juego img{
+    width: 480px;
+    opacity: 80%;
+
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: solid;
+
+
+}
+
+.juego h2{
+    font-size: 22px;
+
+
+
+ 
+
+}
+
+.juego h2 {
+    color: white;
+}
+
+.juego p{
+    color: blueviolet;
+}
+
+.contenedorinfo{
+    line-height: 60px;
+    padding-left: 40px;
+    
+}
+
+/* fin pagina de cada categoria existente */
+
+/* pagina de cada juego existente */
+
+.juegoseccion{
+    height: 100vh;
+
+ 
+    padding-top: 30px;
+    text-align: center ;
+    background-color: black;
+}
+
+.juegosinfo{
+    display:block;
+    flex-wrap:wrap;
+    justify-content: left;
+
+    
+
+    
+
+}
+
+.juegoinfo{
+    background: rgb(0,0,0);
+background: linear-gradient(-90deg, rgba(0,0,0,0.7) 0%, rgba(68,68,68,1) 100%);
+    
+
+    display:flex;
+    text-align: left;
+    
+    padding: 15px;
+
+
+}
+
+.juegoinfo img{
+    width: 900px;
+    opacity: 80%;
+
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: solid;
+
+
+}
+
+.juegoinfo h2{
+    font-size: 30px;
+
+
+
+ 
+
+}
+
+.juegoinfo h2 {
+    color: blueviolet;
+}
+
+.juegoinfo p{
+    color: blueviolet;
+}
+
+.juegoinfo p2{
+    color: white;
+    font-size: 10px;
+}
+
+.contenedordescripcionjuego{
+    line-height: 50px;
+    padding-left: 40px;
+    
+}
+
+/*fin pagina de cada juego existente */
+
+
+
+
+
+
+.footer{
+    padding: 100px 0;
+    position: relative;
+
+    text-align: center ;
+    background-color: black;
+    color: blueviolet;
+}
+
+.imglogo{
+    width: 40px;
+    height: 40px;
+}
