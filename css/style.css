@@ -55,7 +55,7 @@
 
 
 .hero-section {
-    background: url(img/fondoheadercat.jpg) no-repeat center;
+    background: url(../img/fondoheadercat.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -64,7 +64,7 @@
 .heroestrategia {
     background-image:
     linear-gradient(180deg, rgba(40,7,82,0.7455357142857143) 0%, rgba(0,0,0,1) 100%),
-    url('img/fondoestrategia.jpg');
+    url('../img/fondoestrategia.jpg');
     background-size: cover;
     width: 100%;
     height: 30vh;
@@ -73,7 +73,7 @@
 .herorace {
     background-image:
     linear-gradient(180deg, rgba(40,7,82,0.7455357142857143) 0%, rgba(0,0,0,1) 100%),
-    url('img/fondorace.jpg');
+    url('../img/fondorace.jpg');
     background-size: cover;
     width: 100%;
     height: 30vh;
@@ -82,7 +82,7 @@
 .heroterror {
     background-image:
     linear-gradient(180deg, rgba(40,7,82,0.7455357142857143) 0%, rgba(0,0,0,1) 100%),
-    url('img/fondoterror.jpg');
+    url('../img/fondoterror.jpg');
     background-size: cover;
     width: 100%;
     height: 30vh;
@@ -91,7 +91,7 @@
 .heroshooter {
     background-image:
     linear-gradient(180deg, rgba(40,7,82,0.7455357142857143) 0%, rgba(0,0,0,1) 100%),
-    url('img/fondoshooter.jpg');
+    url('../img/fondoshooter.jpg');
     background-size: cover;
     width: 100%;
     height: 30vh;
@@ -100,7 +100,7 @@
 .herosurvival {
     background-image:
     linear-gradient(180deg, rgba(40,7,82,0.7455357142857143) 0%, rgba(0,0,0,1) 100%),
-    url('img/fondosurvival.jpg');
+    url('../img/fondosurvival.jpg');
     background-size: cover;
     width: 100%;
     height: 30vh;
